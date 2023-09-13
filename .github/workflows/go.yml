@@ -9,7 +9,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     env: 
       HOST: localhost
-      PORT: 5432
+      DB_PORT: 5432
       USER: root
       PASSWORD: root
       DBNAME: root

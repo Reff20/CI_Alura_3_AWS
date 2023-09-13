@@ -8,7 +8,7 @@ jobs:
     runs-on: 'ubuntu-latest'
     steps:
     - name: Download a Build Artifact
-      uses: actions/downloadl-artifact@v3.0.0
+      uses: actions/download-artifact@v3.0.0
       with:
         name: system
     - uses: actions/checkout@v3
